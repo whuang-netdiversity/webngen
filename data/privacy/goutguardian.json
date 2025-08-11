@@ -1,0 +1,16 @@
+{
+  "appId": "goutguardian",
+  "appName": "Gout Guardian",
+  "description": "Hydration tracking, gout-safe food reference, and flare-up logging for people managing gout. Designed for local storage first — no account required.",
+  "contactEmail": "support@webngen.io",
+  "localOnly": true,
+  "usesAdMob": true,
+  "usesRevenueCat": true,
+  "thirdParties": [
+    { "name": "Google AdMob", "url": "https://policies.google.com/technologies/ads" },
+    { "name": "RevenueCat", "url": "https://www.revenuecat.com/privacy/" }
+  ],
+  "medicalDisclaimer": "Gout Guardian is for informational purposes only and does not provide medical advice, diagnosis, or treatment. It includes a gout-safe food reference and hydration tracking features intended solely for general educational purposes. This app is not a substitute for professional medical advice. Always seek the advice of a qualified healthcare provider before making any changes to your diet, lifestyle, or treatment plan.",
+  "children": "Gout Guardian is not directed to children under the age of 13 and does not knowingly collect information from children. If you believe we have collected information from a child, please contact us and we will promptly delete it.",
+  "lastUpdated": "2025-08-11"
+}

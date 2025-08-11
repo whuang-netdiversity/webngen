@@ -1,0 +1,26 @@
+{
+    "name": "webngen-site",
+    "version": "1.0.0",
+    "description": "Webngen company site with bundled JS and dynamic privacy policy pages.",
+    "private": true,
+    "scripts": {
+        "start": "npm run dev",
+        "dev": "webpack serve --mode development",
+        "build": "webpack --mode production",
+        "preview": "npx http-server dist -p 4172",
+        "clean": "rm -rf dist && mkdir dist",
+        "rebuild": "npm run clean && npm run build && npm run preview",
+        "lint": "eslint .",
+        "fix": "eslint . --fix"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^12.0.0",
+        "eslint": "^9.8.0",
+        "eslint-plugin-jsdoc": "^48.2.3",
+        "html-webpack-plugin": "^5.6.0",
+        "http-server": "^14.1.1",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4"
+    }
+}
