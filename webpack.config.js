@@ -46,7 +46,7 @@ module.exports = {
                 { from: 'css', to: 'css' },
                 { from: 'data', to: 'data' },
                 { from: 'ads.txt', to: 'ads.txt' },
-                { from: 'static/_redirects', to: '_redirects', noErrorOnMissing: true }
+                { from: 'static/_redirects', to: '_redirects', toType: 'file', noErrorOnMissing: true }
             ]
         })
     ],
