@@ -46,7 +46,7 @@ module.exports = {
                 { from: 'css', to: 'css' },
                 { from: 'data', to: 'data' },
                 { from: 'ads.txt', to: 'ads.txt' },
-                { from: '_redirects', to: '_redirects'}
+                { from: '_redirect', to: '_redirect'}
             ]
         })
     ],
