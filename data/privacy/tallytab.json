@@ -1,0 +1,16 @@
+{
+  "appId": "tallytab",
+  "appName": "Tally Tab",
+  "description": "Tally Tab is a local-first app for managing shared bills and tabs. Designed for casual social use at bars, restaurants, and group outings — no account required.",
+  "contactEmail": "support@webngen.io",
+  "localOnly": true,
+  "usesAdMob": true,
+  "usesRevenueCat": true,
+  "thirdParties": [
+    { "name": "Google AdMob", "url": "https://policies.google.com/technologies/ads" },
+    { "name": "RevenueCat", "url": "https://www.revenuecat.com/privacy/" }
+  ],
+  "medicalDisclaimer": "",
+  "children": "Tally Tab is not directed to children under the age of 13 and does not knowingly collect information from children. If you believe we have collected information from a child, please contact us and we will promptly delete it.",
+  "lastUpdated": "2025-08-21"
+}
